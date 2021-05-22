@@ -123,10 +123,31 @@ a {
     margin-left: 15px;
 }
 
-.download {
+.botao-link {
+    background: rgb(45, 183, 238);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+.botao-link:hover {
+    background: rgb(55, 0, 255);
+    color: white;
+    transition: 0.5s;
+
+}
+
+.download,.botao-modelos {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-bottom: 15px;
+}
+
+i {
+ color: blue;
 }
 
 .modify {
